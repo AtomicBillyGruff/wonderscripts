@@ -4,7 +4,7 @@ import os
 
 work = '''Host github.com
  HostName github.com
- IdentityFile ~/.ssh/wonderkey'''
+ IdentityFile ~/.ssh/$1'''
 
 
 os.system('echo "{}" >> ~/.ssh/config')
